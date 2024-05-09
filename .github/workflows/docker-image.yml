@@ -10,6 +10,11 @@ on:
                 default: '20'
                 options:
                     - '20'
+            image_name:
+                description: 'Tag name of the image to be pushed.'
+                type: string
+                required: true
+                default: 'luoweb/flowai'
             tag_version:
                 description: 'Tag version of the image to be pushed.'
                 type: string
@@ -40,4 +45,4 @@ jobs:
                       NODE_VERSION=${{github.event.inputs.node_version}}
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: flowiseai/flowise:${{github.event.inputs.tag_version}}
+                  tags: ${{github.event.inputs.image_name}}:${{github.event.inputs.tag_version}}
