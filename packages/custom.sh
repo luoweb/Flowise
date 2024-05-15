@@ -4,8 +4,8 @@
 # sed -i "" "s#flowise#blockai#g" ../packages/ui/src/ui-component/extended/Logo.jsx
 # xsed="sed -i '.bak'"
 xsed='sed -i'
-$xsed "s#/assets/images/flowise_logo.png#/assets/images/blockai_logo.drawio.png#g" ../packages/ui/src/ui-component/extended/Logo.jsx
-$xsed "s#/assets/images/flowise_logo_dark.png#/assets/images/blockai_logo_dark.drawio.png#g" ../packages/ui/src/ui-component/extended/Logo.jsx
+$xsed "s#/assets/images/flowise_logo.png#/assets/images/blockai_logo.drawio.svg#g" ../packages/ui/src/ui-component/extended/Logo.jsx
+$xsed "s#/assets/images/flowise_logo_dark.png#/assets/images/blockai_logo_dark.drawio.svg#g" ../packages/ui/src/ui-component/extended/Logo.jsx
 
 # avatar
 find ../packages -type f -maxdepth 3 | grep -v "custom.sh" | xargs grep -o "Flowise - Low-code LLM apps builder"

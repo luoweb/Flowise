@@ -22,7 +22,7 @@ on:
                 required: true
                 default: 'luoweb/flowai'
             image_name_custom:
-                description: 'Tag name of the image to be pushed.'
+                description: 'Tag name of the custom image to be pushed.'
                 type: string
                 required: true
                 default: 'luoweb/flowai-custom'
