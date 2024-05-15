@@ -2,8 +2,8 @@
 
 # logo
 # sed -i "" "s#flowise#blockai#g" ../packages/ui/src/ui-component/extended/Logo.jsx
-# alias xsed="sed -i """
-xsed=`sed -i`
+xsed='sed -i ""'
+# xsed='sed -i'
 $xsed "s#/assets/images/flowise_logo#/assets/images/blockai_logo#g" ../packages/ui/src/ui-component/extended/Logo.jsx
 
 # avatar
