@@ -42,17 +42,6 @@ jobs:
                   ls -l 
                   cd ./packages
                   bash -x ./custom.sh
-                  
-            - name: Build and push
-              uses: docker/build-push-action@v5.3.0
-              with:
-                  context: .
-                  file: ./docker/Dockerfile
-                  build-args: |
-                      NODE_VERSION=${{github.event.inputs.node_version}}
-                  platforms: linux/amd64,linux/arm64
-                  push: true
-                  tags: ${{github.event.inputs.image_name}}:${{github.event.inputs.tag_version}}
             
             - name: Build and push CustomUI
               uses: docker/build-push-action@v5.3.0
@@ -64,4 +53,15 @@ jobs:
                   platforms: linux/amd64,linux/arm64
                   push: true
                   tags: ${{github.event.inputs.image_name}}-custom:${{github.event.inputs.tag_version}}
-
+      
+            - name: Build and push
+              uses: docker/build-push-action@v5.3.0
+              with:
+                  context: .
+                  file: ./docker/Dockerfile
+                  build-args: |
+                      NODE_VERSION=${{github.event.inputs.node_version}}
+                  platforms: linux/amd64,linux/arm64
+                  push: true
+                  tags: ${{github.event.inputs.image_name}}:${{github.event.inputs.tag_version}}
+            
