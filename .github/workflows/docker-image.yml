@@ -21,6 +21,11 @@ on:
                 type: string
                 required: true
                 default: 'luoweb/flowai'
+            image_name_custom:
+                description: 'Tag name of the image to be pushed.'
+                type: string
+                required: true
+                default: 'luoweb/flowai-custom'
             tag_version:
                 description: 'Tag version of the image to be pushed.'
                 type: string
@@ -58,7 +63,7 @@ jobs:
                       NODE_VERSION=${{github.event.inputs.node_version}}
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ${{github.event.inputs.image_name}}-custom:${{github.event.inputs.tag_version}}
+                  tags: ${{github.event.inputs.image_name_custom}}:${{github.event.inputs.tag_version}}
       
             - name: Build and push
               uses: docker/build-push-action@v5.3.0
