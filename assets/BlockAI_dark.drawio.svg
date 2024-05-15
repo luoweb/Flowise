@@ -1,0 +1,32 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="376px" height="376px" viewBox="-0.5 -0.5 376 376" content="&lt;mxfile&gt;&lt;diagram id=&quot;PTW2K_INPo0nos49X4oa&quot; name=&quot;第 1 页&quot;&gt;jZNNb8IwDIZ/TY+TaAJlHIEB22EnDjtHjWmipbhLAy379XNJ0g8hpF3a+PFH7bxuwrdle7CiUp8owSRsJtuEvyWMzZczenbg5gFfzT0orJYepQM46l8IMOQVFy2hngQ6RON0NYU5ns+QuwkT1mIzDTuhmX61EgU8gGMuzCP90tIpT1/ZcuDvoAsVv5xmK+8pRQwOk9RKSGxGiO8SvrWIzp/Kdgumu7t4Lz5v/8TbN2bh7P6TwHzCVZhLmC1hmaHUzQmpAjXobmHq7OeC0fFS3zVZU0A2q0jWzeCnU9G9Nwbz7/VHrEc9+JLeG8bvq7NGaQfHSuSd3dDaUJBypSErpaOoK6/kSbcgQxt7UWrT7dAB0BZa9HWvYB20T+8k7W+aNhSwBGdvFBITeBAnbOcimM0gNV8uPFMjmXsownoVfelBAToEEaI5iH33jf4YvvsD&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="375" height="375" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 373px; height: 1px; padding-top: 188px; margin-left: 1px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Georgia; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 60px;">
+                                    BlockAI
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="188" y="191" fill="rgb(0, 0, 0)" font-family="Georgia" font-size="12px" text-anchor="middle">
+                    BlockAI
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
