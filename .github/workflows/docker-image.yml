@@ -48,8 +48,10 @@ jobs:
                   tags: ${{github.event.inputs.image_name}}:${{github.event.inputs.tag_version}}
             - name: Prepare Custom UI
               run: |
-                  cd packages
-                  bash -x custom.sh
+                  pwd
+                  ls -l 
+                  cd ./packages
+                  bash -x ./custom.sh
             - name: Build and push CustomUI
               uses: docker/build-push-action@v5.3.0
               with:
