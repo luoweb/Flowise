@@ -8,12 +8,14 @@ $xsed "s#/assets/images/flowise_logo.png#/assets/images/blockai_logo.drawio.svg#
 $xsed "s#/assets/images/flowise_logo_dark.png#/assets/images/blockai_logo_dark.drawio.svg#g" ../packages/ui/src/ui-component/extended/Logo.jsx
 
 # avatar
-find ../packages -type f -maxdepth 3 | grep -v "custom.sh" | xargs grep -o "Flowise - Low-code LLM apps builder"
+find ../packages -type f -maxdepth 3 | grep -vE "custom.sh|.cache" | xargs grep -o "Flowise - Low-code LLM apps builder"
 $xsed "s#Flowise - Low-code LLM apps builder#BloclAI - LLM apps builder#g" ../packages/ui/public/index.html
 $xsed "s#Flowise - Low-code LLM apps builder#BloclAI - LLM apps builder#g" ../packages/ui/index.html
 
+find ../packages -type f -maxdepth 9 -name "*.ts" -o -name "*.html" | grep -vE " |custom.sh|.cache" | xargs grep -o "Powered by"
+
 # url
-find ../packages -type f -maxdepth 3 | grep -v "custom.sh"  | xargs grep -o "https://flowiseai.com" 
+find ../packages -type f -maxdepth 3 | grep -vE "custom.sh|.cache" | xargs grep -o "https://flowiseai.com" 
 $xsed "s#https://flowiseai.com#https://roweb.cn#g" ../packages/ui/index.html
 $xsed "s#https://flowiseai.com#https://roweb.cn#g" ../packages/ui/public/index.html
 $xsed "s#https://flowiseai.com#https://roweb.cn#g" ../package.json

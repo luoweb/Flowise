@@ -1,7 +1,7 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="323px" height="106px" viewBox="-0.5 -0.5 323 106" content="&lt;mxfile&gt;&lt;diagram id=&quot;UNi6KWZncQqn2OL1jD9T&quot; name=&quot;第 1 页&quot;&gt;jZNNb4MwDIZ/Te5A2rU7rqz7OOzUw84ZMRA1xCiEQffrFxYHiqpKu6Dw2C+xXxvG82Z8taKtP1CCZlkiR8afWZZtdol/TuASwDbZBFBZJQNKF3BSP0CQdFWvJHSrRIeonWrXsEBjoHArJqzFYZ1Wol7f2ooKbsCpEPqWfirp6kD32W7hb6CqOt6cPjyGSCNiMnXS1ULicIX4kfHcIrpwasYc9ORd9CXoXu5E58IsGPcfQRYE30L31NtBY3F+eqfy3CX2bLE3EiZZwvhhqJWDUyuKKTr4IXtWu0b7t9QfSzSOxrad0kuldY4arQcSStFrX92hcxbPELlBAySNiGUcCviC0nMqFKyD8W6z6WyhXz3ABpy9+BQS7Ml02rp5CMMyQx4dqa/nl2xpd2hvqvnTi7X+QO7G12WKf7GrX4EffwE=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="323px" height="106px" viewBox="-0.5 -0.5 323 106" content="&lt;mxfile&gt;&lt;diagram id=&quot;UNi6KWZncQqn2OL1jD9T&quot; name=&quot;第 1 页&quot;&gt;rZTLcqMwEEW/RtuUQSGPZbAzj8WsvMhyShYNqCzUlJANztdPC8TLTiozVbNB4qhbat3bwPi26r5bUZe/MAPN4k3WMb5jcXz/uKGnB5cB8CgeQGFVNqBoBnv1DgGGvOKkMmhWgQ5RO1WvoURjQLoVE9Ziuw7LUa9PrUUBN2Avhb6lbypz5UCf4seZ/wBVlOPJ0cPzsFKJMTjcpClFhu0C8VfGtxbRDbOq24L22o26DHnfPlmdCrNg3N8kBN3PQp/C3Vj8IKqa8dQcGj8wv8OXKNUojy8/w6XcZVTK4slk4A/bUFRbKgf7Wki/2lJrECtdpektommOxgWzEx+eK623qNESMGiIp42zeIQr6PNGxGIOEg6Q93X2dwProPtUn2hSnboVsAJnLxQSEp6CT6FRJ9/a2XY+ilguLd8kod1CqxXT1rMbNAmGfGwO/8CcK32bIzhZBnlFUw/dnqvOa77UtkZlXF9LkrJk56O1KgwBSVIASZeqqm/7pQ30XU58p6qCKtbq4OtupAAaU3S/92DPSkJz15yL/6N6dH8lexLfJTfCj0FL3Uf2D7LT6/y99WuLnxZ//QM=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="0" y="0" width="322" height="105" fill="rgb(255, 255, 255)" stroke="none" pointer-events="all"/>
+        <rect x="0" y="0" width="322" height="105" fill="none" stroke="none" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
@@ -18,6 +18,7 @@
                 </text>
             </switch>
         </g>
+        <image x="59.5" y="32" width="40" height="40" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgZmlsbD0iIzU5YjRkOSI+PGNpcmNsZSBjeD0iMzYiIGN5PSI0NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjUyIiBjeT0iNDQiIHI9IjQiLz48cGF0aCBkPSJNMjAgMzNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMjAgNjNoMzV2NUgyMHptNDMtNDNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMzMgMjBoMzV2NUgzM3pNNDQgMGE0NCA0NCAwIDEgMCA0NCA0NEE0NCA0NCAwIDAgMCA0NCAwem0wIDgyYTM4IDM4IDAgMSAxIDM4LTM4IDM4IDM4IDAgMCAxLTM4IDM4eiIvPjwvc3ZnPg=="/>
     </g>
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
