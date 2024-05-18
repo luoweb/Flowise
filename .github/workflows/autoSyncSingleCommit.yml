@@ -2,7 +2,8 @@ name: autoSyncSingleCommit
 on:
     push:
         branches:
-            - main
+            # - main
+            - release
 jobs:
     doNotAutoSyncSingleCommit:
         if: github.event.commits[1] != null

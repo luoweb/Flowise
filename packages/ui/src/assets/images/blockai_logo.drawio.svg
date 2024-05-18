@@ -1,4 +1,4 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="323px" height="106px" viewBox="-0.5 -0.5 323 106" content="&lt;mxfile&gt;&lt;diagram id=&quot;__-WsEZZC2OauN5NziHv&quot; name=&quot;第 1 页&quot;&gt;lZRNd6MgFIZ/DdueCLHNLMek05nFrLLocg7Fq3KCXA+QaPrrByJ+Jelpu4n6cBF43msI29bdi+FN9RdzUISu8o6wHaF0/bTyvwGce8AS2oPSyLxHyQT28h0ijPPKo8zBLgodonKyWUKBWoNwC8aNwXZZVqBartrwEm7AXnB1S19l7qqebujTxH+DLKth5eTxRz9S86E4nsRWPMd2htgzYVuD6Pq7utuCCu4GL/28Xx+MjhszoN1XJkTvJ66O8WyEPvK6ISzTbzZcSHjDpyhTKA4//8RDufNgyuBR5xAWW/mqtpIO9g0XYbT1reFZ5WrlnxJ/W6B2Mew0lBdSqS0qNB5o1J5n1hk8wBUM8wZEKNuIlBbFZZ/XMqKfExgH3QxFOS+ANThz9iVxdBNzio065tZOsbNBYjWPfJXGdoutVo6vntLwNzGQ++Gs74Rz5dcewIkq6uW26bu9kF1wPnfboNTuspc0I+kuVCtZag+EtwNeXSbrS9vPY/Df5ch3si79jpV8C/u2goO/Zuj+7cGcpAD7YE/laP1G8Z0gPrSerK+0p/QhvRE/FM29D+wb2v3j9L1dxmZ/Wuz5Pw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="323px" height="106px" viewBox="-0.5 -0.5 323 106" content="&lt;mxfile&gt;&lt;diagram id=&quot;__-WsEZZC2OauN5NziHv&quot; name=&quot;第 1 页&quot;&gt;lZRLc5swEIB/DdcMCOO4x2KnSQ89+dBjRxGL0FiwRMgG99d3QeJh48ykFyN9eq2+XTmI92X3anhd/MIMdMDCrAviQ8DY5jmk3x5cHYgj5oA0KnMomsFR/QUP/Tp5Vhk0NxMtoraqvoUCqwqEvWHcGGxvp+Wob0+tuYQVOAqu1/S3ymzh6I49z/wNlCzGk6PtNzdS8nGyv0lT8AzbBYpfgnhvEK1rld0edO9u9OLW/fhkdArMQGW/ssB7v3B99ncL2FbT0jRH2oHccOEGth/nPqj0FdBIxWdALem/vKypUb039dAPv4ZSjeL0/ed4MAXrzh63HTzZ6yjf4LnKoI8/pOG2UBaOtYuypWojVthSUy/yt/D1k/TTc6X1HjUaAhVWxNPGGjzBHezXjShg8U4kLM+naJZ+vfILGAvdAnnfpKsEa640xY/ufOp97U+l0M6VFI95KZZVFCa+gn31ymnrOcHU8Dl+nO/Ng3zf+W1OYEXh9fKmdg8oV13vfOm2RlXZIZYkDZJDP1srWREQZAdIXarK4SUt00BPfeIHVUqKWKv3Pu5GcKBvivbPEcxFCWiemoucrK8UP0jEp9Yjdqc9YU/JSvwmXHsf2X9op+78hIexxf9g/PIP&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
         <rect x="0" y="0" width="322" height="105" fill="none" stroke="none" pointer-events="all"/>
@@ -8,7 +8,9 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 320px; height: 1px; padding-top: 53px; margin-left: 1px;">
                         <div data-drawio-colors="color: #8c52ff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
                             <div style="display: inline-block; font-size: 50px; font-family: Helvetica; color: rgb(140, 82, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
-                                BlockAI
+                                <font face="Georgia">
+                                    BlockAI
+                                </font>
                             </div>
                         </div>
                     </div>
@@ -18,7 +20,7 @@
                 </text>
             </switch>
         </g>
-        <image x="59.5" y="32" width="40" height="40" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgZmlsbD0iIzU5YjRkOSI+PGNpcmNsZSBjeD0iMzYiIGN5PSI0NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjUyIiBjeT0iNDQiIHI9IjQiLz48cGF0aCBkPSJNMjAgMzNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMjAgNjNoMzV2NUgyMHptNDMtNDNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMzMgMjBoMzV2NUgzM3pNNDQgMGE0NCA0NCAwIDEgMCA0NCA0NEE0NCA0NCAwIDAgMCA0NCAwem0wIDgyYTM4IDM4IDAgMSAxIDM4LTM4IDM4IDM4IDAgMCAxLTM4IDM4eiIvPjwvc3ZnPg=="/>
+        <image x="39.5" y="32" width="40" height="40" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgZmlsbD0iIzU5YjRkOSI+PGNpcmNsZSBjeD0iMzYiIGN5PSI0NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjUyIiBjeT0iNDQiIHI9IjQiLz48cGF0aCBkPSJNMjAgMzNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMjAgNjNoMzV2NUgyMHptNDMtNDNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMzMgMjBoMzV2NUgzM3pNNDQgMGE0NCA0NCAwIDEgMCA0NCA0NEE0NCA0NCAwIDAgMCA0NCAwem0wIDgyYTM4IDM4IDAgMSAxIDM4LTM4IDM4IDM4IDAgMCAxLTM4IDM4eiIvPjwvc3ZnPg=="/>
     </g>
     <switch>
         <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>

@@ -1,12 +1,9 @@
 name: Docker Image CI
 
 on:
-    # push:
-    #     branches:
-    #         - main
-    pull_request:
+    push:
         branches:
-            - '*'
+            - main
     workflow_dispatch:
         inputs:
             node_version:
@@ -34,9 +31,11 @@ on:
 
 jobs:
     docker:
-        if: ${{github.event.inputs.image_name_custom  == 'luoweb/flowai-custom' }}
         runs-on: ubuntu-latest
         steps:
+            - name: Get current date
+              id: date
+              run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
             - name: Checkout
               uses: actions/checkout@v4.1.1
             - name: Set up QEMU
@@ -64,9 +63,10 @@ jobs:
                       NODE_VERSION=${{github.event.inputs.node_version}}
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ${{github.event.inputs.image_name_custom}}:${{github.event.inputs.tag_version}}
+                  tags: ${{ secrets.DOCKERHUB_USERNAME }}/flowai-custom:${{ steps.date.outputs.date }}
       
             - name: Build and push
+              if: ${{github.event.inputs.image_name_custom  == 'luoweb/flowai-custom' }}
               uses: docker/build-push-action@v5.3.0
               with:
                   context: .
@@ -75,5 +75,5 @@ jobs:
                       NODE_VERSION=${{github.event.inputs.node_version}}
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ${{ secrets.DOCKERHUB_USERNAME }}/flowai-custom:latest
+                  tags: ${{ secrets.DOCKERHUB_USERNAME }}/flowai:${{ steps.date.outputs.date }}
             
