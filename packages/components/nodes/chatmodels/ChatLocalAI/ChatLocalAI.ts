@@ -116,7 +116,7 @@ class ChatLocalAI_ChatModels implements INode {
 
         if (maxTokens) obj.maxTokens = parseInt(maxTokens, 10)
         if (topP) obj.topP = parseFloat(topP)
-        if (streaming) obj.stream = streaming
+        if (streaming) obj.streaming = streaming
         if (timeout) obj.timeout = parseInt(timeout, 10)
         if (cache) obj.cache = cache
         if (localAIApiKey) obj.openAIApiKey = localAIApiKey
