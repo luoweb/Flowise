@@ -68,6 +68,14 @@ class ChatLocalAI_ChatModels implements INode {
                 additionalParams: true
             },
             {
+                label: 'Truncate Num',
+                name: 'truncate',
+                type: 'number',
+                step: 1,
+                optional: true,
+                additionalParams: true
+            },
+            {
                 label: 'Top Probability',
                 name: 'topP',
                 type: 'number',
@@ -98,6 +106,7 @@ class ChatLocalAI_ChatModels implements INode {
         const temperature = nodeData.inputs?.temperature as string
         const modelName = nodeData.inputs?.modelName as string
         const maxTokens = nodeData.inputs?.maxTokens as string
+        const truncate = nodeData.inputs?.truncate as string
         const topP = nodeData.inputs?.topP as string
         const streaming = nodeData.inputs?.streaming as boolean
         const timeout = nodeData.inputs?.timeout as string
@@ -107,14 +116,16 @@ class ChatLocalAI_ChatModels implements INode {
 
         const cache = nodeData.inputs?.cache as BaseCache
 
-        const obj: Partial<OpenAIChatInput> & BaseLLMParams & { openAIApiKey?: string } = {
+        const obj: Partial<OpenAIChatInput> & BaseLLMParams & { openAIApiKey?: string; truncate?: string } = {
             temperature: parseFloat(temperature),
+            truncate: truncate,
             modelName,
             openAIApiKey: 'sk-',
             streaming: streaming ?? false
         }
 
         if (maxTokens) obj.maxTokens = parseInt(maxTokens, 10)
+        if (truncate) obj.truncate = truncate
         if (topP) obj.topP = parseFloat(topP)
         if (streaming) obj.streaming = streaming
         if (timeout) obj.timeout = parseInt(timeout, 10)
