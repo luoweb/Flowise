@@ -70,7 +70,7 @@ jobs:
                       NODE_VERSION=${{github.event.inputs.node_version}}
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ${{ secrets.DOCKERHUB_USER }}/flowai-custom:${{ steps.date.outputs.date }}
+                  tags: ${{ env.DOCKER_REGISTRY }}/${{ env.DOCKERHUB_USER }}/flowai-custom:${{ steps.date.outputs.date }}
       
             - name: Build and push
               if: ${{github.event.inputs.image_name_custom  == 'luoweb/flowai-custom' }}
@@ -82,5 +82,5 @@ jobs:
                       NODE_VERSION=${{github.event.inputs.node_version}}
                   platforms: linux/amd64,linux/arm64
                   push: true
-                  tags: ${{ secrets.DOCKERHUB_USER }}/flowai:${{ steps.date.outputs.date }}
+                  tags: ${{ env.DOCKER_REGISTRY }}/${{ env.DOCKERHUB_USER }}/flowai:${{ steps.date.outputs.date }}
             
