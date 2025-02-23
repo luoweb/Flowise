@@ -1,0 +1,33 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="323px" height="106px" viewBox="-0.5 -0.5 323 106" content="&lt;mxfile&gt;&lt;diagram id=&quot;__-WsEZZC2OauN5NziHv&quot; name=&quot;第 1 页&quot;&gt;rZRNc5swEIZ/DdcMCOO4x2KnaQ45+ZBjRxGL0FiwVMgG59d3QeLLTmfSmV6Q9OyutHp3RRDvy+7Z8Lp4xQx0wMKsC+JDwNjmMaRvD64OxBFzQBqVORTN4Kg+wEMfJ88qg2blaBG1VfUaCqwqEHbFuDHYrt1y1OtTay7hDhwF1/f0TWW2cHTHHmf+E5QsxpOj7TdnKfno7G/SFDzDdoHipyDeG0TrZmW3B91rN+ri4n78xTolZqCyXwnwul+4Pvu7BWyrKTTNkXYgbbhwhu3vc59U+gxopOIzoJn0Iy9rmlTvTT2sw6+hVKM4fX8ZD6Zk3dnjtoNO9jqKb/BcZdDnH5K5LZSFY+2ybKnbiBW21LSK/C18/yS9e6603qNGQ6DCinjaWIMnuIF93IgCFu9EwvJ8ymapr5f8AsZCt0Beb5KrBGuu5OKtO1963/tTK7RzJ8VjXYplF4WJ72DfvXLaei4wTXyNP6/35pN63+jbnMCKwsvLm9o9oFx1veZLbWtUlR1ySdIgOfTeWsmKgCB1gKRLVTm8pGUZ6KlP/KBKSRlr9d7n3QgONKZofx3BXJSA5qG5yP+jesRuZE/YQ3In/Ca8131k/yA7LecnPNgW/8H46Q8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="322" height="105" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 320px; height: 1px; padding-top: 53px; margin-left: 1px;">
+                        <div data-drawio-colors="color: #8c52ff; " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 50px; font-family: Helvetica; color: rgb(140, 82, 255); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font face="Georgia">
+                                    BlockAI
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="161" y="68" fill="#8c52ff" font-family="Helvetica" font-size="50px" text-anchor="middle">
+                    BlockAI
+                </text>
+            </switch>
+        </g>
+        <image x="39.5" y="32" width="40" height="40" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4OCIgaGVpZ2h0PSI4OCIgZmlsbD0iIzU5YjRkOSI+PGNpcmNsZSBjeD0iMzYiIGN5PSI0NCIgcj0iNCIvPjxjaXJjbGUgY3g9IjUyIiBjeT0iNDQiIHI9IjQiLz48cGF0aCBkPSJNMjAgMzNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMjAgNjNoMzV2NUgyMHptNDMtNDNoNXYzNWgtNXoiLz48cGF0aCBkPSJNMzMgMjBoMzV2NUgzM3pNNDQgMGE0NCA0NCAwIDEgMCA0NCA0NEE0NCA0NCAwIDAgMCA0NCAwem0wIDgyYTM4IDM4IDAgMSAxIDM4LTM4IDM4IDM4IDAgMCAxLTM4IDM4eiIvPjwvc3ZnPg=="/>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

@@ -75,12 +75,28 @@ class ChatLocalAI_ChatModels implements INode {
                 additionalParams: true
             },
             {
+                label: 'Truncate Num',
+                name: 'truncate',
+                type: 'number',
+                step: 1,
+                optional: true,
+                additionalParams: true
+            },
+            {
                 label: 'Top Probability',
                 name: 'topP',
                 type: 'number',
                 step: 0.1,
                 optional: true,
                 additionalParams: true
+            },
+            {
+                label: 'Stream Mode',
+                name: 'streaming',
+                type: 'boolean',
+                description: 'Chat Stream mode',
+                default: false,
+                optional: true
             },
             {
                 label: 'Timeout',
@@ -97,7 +113,9 @@ class ChatLocalAI_ChatModels implements INode {
         const temperature = nodeData.inputs?.temperature as string
         const modelName = nodeData.inputs?.modelName as string
         const maxTokens = nodeData.inputs?.maxTokens as string
+        const truncate = nodeData.inputs?.truncate as string
         const topP = nodeData.inputs?.topP as string
+        const streaming = nodeData.inputs?.streaming as boolean
         const timeout = nodeData.inputs?.timeout as string
         const basePath = nodeData.inputs?.basePath as string
         const streaming = nodeData.inputs?.streaming as boolean
@@ -107,15 +125,19 @@ class ChatLocalAI_ChatModels implements INode {
 
         const cache = nodeData.inputs?.cache as BaseCache
 
+
         const obj: ChatOpenAIFields = {
             temperature: parseFloat(temperature),
+            truncate: truncate,
             modelName,
             openAIApiKey: 'sk-',
             streaming: streaming ?? true
         }
 
         if (maxTokens) obj.maxTokens = parseInt(maxTokens, 10)
+        if (truncate) obj.truncate = truncate
         if (topP) obj.topP = parseFloat(topP)
+        if (streaming) obj.streaming = streaming
         if (timeout) obj.timeout = parseInt(timeout, 10)
         if (cache) obj.cache = cache
         if (localAIApiKey) obj.openAIApiKey = localAIApiKey

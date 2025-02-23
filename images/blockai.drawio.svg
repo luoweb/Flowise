@@ -1,0 +1,37 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1126px" height="376px" viewBox="-0.5 -0.5 1126 376" content="&lt;mxfile&gt;&lt;diagram id=&quot;PTW2K_INPo0nos49X4oa&quot; name=&quot;第 1 页&quot;&gt;jZM9b4MwEIZ/DWMlsBsIY0I+2qFThs4OGGPVYGqcQPrra+MDjKJKXRLuuU/uXgKc1cNZkbb6kAUVAQqLIcCHAKHXJDS/FjwcwOmrA0zxwqFoARf+QwFCHrvxgnarQC2l0Lxdw1w2Dc31ihGlZL8OK6VYd20Jo0/gkhPxTD95oStHtyhZ+BvlrJo6R3HqPDWZguFNuooUsvcQPgY4U1Jq91QPGRV2d9NeXN7pD+88mKKN/k8Ccgl3Im7wbgGKhUndl9JUsCsUUo2e+Ptmp9oHCJfbMikTH4WdfsB2JmgLvHTj7XYmIMJhO4yxS1bM7P9eyPxr9z41NsO63s4Le5rLo77iml5aklu7N/oyQZWuhbEi25YLkc1D4zhBKclhnBOpubCaO1OpGCeAQWBxaGymSMHN8rwS0RXl6dXzHbgyquKyMX5KumVKf+9wijtVmg4egjuYCWqq1cOETF4MmoCPYgNmvygsitDGwcqTF04AEpA1m2svlzcPcPzJXEQ2+rwvFR9/AQ==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" id="mx-gradient-6729ac-1-1b2c9b-1-e-0">
+            <stop offset="0%" style="stop-color: rgb(103, 41, 172); stop-opacity: 1;"/>
+            <stop offset="100%" style="stop-color: rgb(27, 44, 155); stop-opacity: 1;"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <rect x="0" y="0" width="1125" height="375" fill="url(#mx-gradient-6729ac-1-1b2c9b-1-e-0)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1123px; height: 1px; padding-top: 188px; margin-left: 1px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
+                            <div style="display: inline-block; font-size: 60px; font-family: Georgia; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                <font style="font-size: 130px;" color="#f8f7f7">
+                                    BlockAI
+                                </font>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="563" y="206" fill="rgb(0, 0, 0)" font-family="Georgia" font-size="60px" text-anchor="middle">
+                    BlockAI
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
